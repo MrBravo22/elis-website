@@ -1,0 +1,42 @@
+.home {
+    height: 600px;
+    width: fit-content;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-mountain-vector-01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.about {
+    height: 600px;
+    width: fit-content;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-mountain-vector-08.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.portfolio {
+    height: 600px;
+    width: fit-content;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-mountain-vector-07.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.headerDiv {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+
+}
+nav {
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact">
+    <header>
+        <div class="headerDiv">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <h2>Contact Me</h2>
+        <form action="results.html">
+            <label for="fname">First Name:</label>
+            </br>
+            <input type="text" placeholder="Joe" name="fname" required>
+            </br>
+            <label for="lname">Last Name:</label>
+            </br>
+            <input type="text" placeholder="Shmo" name="lname" required>
+            </br>
+            <label for="email">Email Address:</label>
+            </br>
+            <input type="email" placeholder="JoeShmo@gmail.com" name="email" required>
+            </br>
+            <label for="phone">Phone Number:</label>
+            </br>
+            <input type="tel" placeholder="(xxx)-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone" required>
+            </br>
+            <label for="message">Message:</label>
+            </br>
+            <textarea type="text" placeholder="Hello World" rows="6" cols="20" wrap="hard" maxlength="500" name="message"></textarea>
+            </br>
+            <button type="submit" name="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
